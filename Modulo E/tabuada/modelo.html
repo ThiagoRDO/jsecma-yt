@@ -5,22 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Modelo de exercicio</title>
+    <title>Tabuadator 3000</title>
     <link rel="stylesheet" href="estilo.css">
   </head>
 
   <body>
 
     <header>
-      <h1>Título</h1>
+      <h1>Tabuadator 3000</h1>
     </header>
     <section>
       <div>
-        teste
-
+        <p>
+          Tabuada do número:
+          <input type="number" name="numero" id="numero">          
+          <input type="button" value="Calcular" onclick="calcular()" size="10">
+        </p>          
       </div>
-      <div>
-        Olá...
+      <div id="resultado">
+        <select name="tabuada" id="seltab"></select>
       </div>
     </section>
     <footer>
