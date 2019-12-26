@@ -9,15 +9,15 @@ function carregar() {
 
   if (hora >= 0 && hora < 12){
     //dia
-    img.src = "../dia.png"
+    img.src = "dia.png"
     document.body.style.background = '#FCF282'
   } else if (hora >= 12 && hora < 18) {
     //tarde
-    img.src = "../tarde.png"
+    img.src = "tarde.png"
     document.body.style.background = '#F0A52F'
   } else {
     //noite
-    img.src = "../noite.png"
+    img.src = "noite.png"
     document.body.style.background = '#1B1A9A'
   }
   
